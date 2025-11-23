@@ -1,7 +1,6 @@
 package ru.job4j.converter;
 
 public class Converter {
-
     public static double rubleToEuro(double value) {
         // Assuming the conversion rate is 1 Euro = 90 Rubles
         return value / 90;
