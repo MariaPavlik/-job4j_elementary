@@ -14,7 +14,7 @@ public class MathCalculator {
                 + division(first, second);
     }
 
-    public static double sumAllOperations(double first, double second) {
+    public static double sumOfAllOperations(double first, double second) {
         return sum(sum(first, second), multiply(first, second))
                 + sum(difference(first, second), division(first, second));
 
@@ -22,6 +22,6 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Сумма разности двух чисел и деления двух чисел равна: " + diffPlusDivision(10, 20));
-        System.out.println("Сумму всех четырех операций из класса : " + sumAllOperations(10, 20));
+        System.out.println("Сумму всех четырех операций из класса : " + sumOfAllOperations(10, 20));
     }
 }
