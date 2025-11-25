@@ -58,4 +58,13 @@ class CounterTest {
         int result = Counter.sumByEven(start, finish);
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void whenSumEvenNumbersFromSevenToSevenThenZero() {
+        int start = 7;
+        int finish = 7;
+        int expected = 0;
+        int result = Counter.sumByEven(start, finish);
+        assertThat(result).isEqualTo(expected);
+    }
 }
