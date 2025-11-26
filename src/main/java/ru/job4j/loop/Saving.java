@@ -1,0 +1,14 @@
+package ru.job4j.loop;
+
+public class Saving {
+    public static int years(double goal, double annualDeposit, double percent) {
+        int years = 0;
+        double total = 0;
+        do {
+            total += annualDeposit + (annualDeposit * percent / 100);
+            years++;
+        } while (total < goal);
+        return years;
+    }
+}
+
