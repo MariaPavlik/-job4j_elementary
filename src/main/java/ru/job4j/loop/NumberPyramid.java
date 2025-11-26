@@ -12,7 +12,7 @@ public class NumberPyramid {
                 System.out.print(j);
             }
             // Печатаем числа в обратном порядке
-            for (int j = i - 1; j >= 1; j--) {
+            for (int j = i-1; j >= 1; j--) {
                 System.out.print(j);
             }
             // Переход на новую строку
