@@ -1,5 +1,5 @@
 package ru.job4j.loop;
-
+///
 public class CheckNumber {
     public static boolean check(int number) {
         boolean prime = number > 1;
