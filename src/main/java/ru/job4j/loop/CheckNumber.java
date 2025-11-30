@@ -2,14 +2,14 @@ package ru.job4j.loop;
 
 public class CheckNumber {
     public static boolean check(int number) {
-        int noSimple = 0;
+        boolean prime = number > 1;
         for (int index = 2; index < number; index++) {
             if (number % index == 0) {
-                noSimple++;
+                prime = false;
                 break;
             }
         }
-        return noSimple == 0;
+        return prime;
     }
 }
 
