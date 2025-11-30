@@ -9,7 +9,6 @@ public class Square {
         return result;
     }
 
-
     public static void main(String[] args) {
         int[] array = calculate(4);
         for (int i : array) {
